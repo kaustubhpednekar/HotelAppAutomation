@@ -37,6 +37,7 @@ public class TestHotelApp {
 		driver.findElement(By.id("password")).sendKeys("vasu1234");
 		
 		driver.findElement(By.className("login_button")).click();
+		
 	}
 
 }
